@@ -1,3 +1,5 @@
+
+
 public class Factorial {
 
 //    Simple recursion
