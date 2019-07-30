@@ -1,5 +1,6 @@
-*.class
-*target/
-geek/DP/.idea/uiDesigner.xml
-geek/DP/.idea/workspace.xml
-geek/DP/DP.iml
+
+*/target/*
+*.idea/*
+*misc.xml
+*workspace.xml
+*.iml
