@@ -1,6 +1,7 @@
 
+*target/*
 */target/*
-*.idea/*
+*idea/*
 *misc.xml
 *workspace.xml
 *.iml
