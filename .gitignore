@@ -1,4 +1,6 @@
 
+*compiler.xml
+*modules.xml
 *target/*
 */target/*
 *idea/*
