@@ -5,12 +5,12 @@ public class App {
         /*
 
                                       100
-                                 /         \
-                               1           2
-                             /   \        /   \
-                            3     4      5     6
-                          /  \   /  \   /  \  /  \
-                         7    8  9  10 11  12 13 14
+                                 /          \
+                               1            2
+                             /   \         /   \
+                            3     4       5     6
+                          /  \   /  \    /  \   /  \
+                         7    8  9  10  11  12 13 14
                         /
                        15
 
@@ -49,6 +49,14 @@ public class App {
         six.setLeft(thirteen);
         six.setRight(fourteen);
         seven.setLeft(fifteen);
+
+        TreeBasicTraversals basciTraversals = new TreeBasicTraversals();
+
+//        basciTraversals.inOrderTraversal(root);
+//        basciTraversals.preOrderTraversal(root);
+//        basciTraversals.postOrderTraversal(root);
+        System.out.println(basciTraversals.treeSize(root));
+        System.out.println(basciTraversals.treeMaxDepth(root));
 
     }
 

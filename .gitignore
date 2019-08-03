@@ -1,9 +1,7 @@
-
 *compiler.xml
 *modules.xml
-*target/*
-*/target/*
-*idea/*
+/target/**
+/idea/**
 *misc.xml
 *workspace.xml
 *.iml
